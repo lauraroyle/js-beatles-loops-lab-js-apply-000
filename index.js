@@ -16,3 +16,13 @@ function johnLennonFacts(){
   }
   return newFacts;
 }
+ function johnLennonFacts(){
+   var array = ["foo", "bar"];
+   var newArray = [];
+   var i = 0
+   while (i < array.length) {
+     newArray.push(array[i] + "!!!")
+     i++;
+   }
+   return newArray;
+ }
