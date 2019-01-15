@@ -16,3 +16,14 @@ function johnLennonFacts(){
   }
   return newFacts;
 }
+
+function johnLennonFacts(){
+  var facts = ["foo", "bar"];
+  var newFacts = [];
+  var i = 0
+  while (i < facts.length) {
+    newFacts.push(facts[i] + "!!!")
+    i++;
+    return newFacts;
+  }
+}
